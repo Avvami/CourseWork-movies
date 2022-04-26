@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">CourseWork-movies</string>
+    <string name="logo_desc">main-logo-netflix</string>
+    <string name="movies">Фильмы</string>
+    <string name="tv_shows">Сериалы</string>
+    <string name="my_list">Мой список</string>
 </resources>
