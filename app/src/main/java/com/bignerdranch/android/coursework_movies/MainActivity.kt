@@ -1,6 +1,7 @@
 package com.bignerdranch.android.coursework_movies
 
 import android.content.ContentValues
+import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
@@ -23,6 +24,10 @@ class MainActivity : AppCompatActivity() {
 
         setOnTabs()
 
+        button.setOnClickListener {
+            val intent = Intent(this@MainActivity, ResourcelistActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun setOnTabs() {

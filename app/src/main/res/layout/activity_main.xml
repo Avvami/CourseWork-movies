@@ -53,6 +53,12 @@
                 android:layout_height="wrap_content"
                 android:text="@string/favourite"/>
         </com.google.android.material.tabs.TabLayout>
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Button" />
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.viewpager.widget.ViewPager
